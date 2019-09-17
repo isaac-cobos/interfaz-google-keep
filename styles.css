@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-gap:1px;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 65px 1fr;
+    grid-template-areas: "header-1 header-1 header-1"
+                         "sidemenu mainarea mainarea";
+} 
+
+.container .header-1 {
+  display: flex;
+  align-items: center;
+  background-color: #202124;
+  grid-area: header-1;
+  width: 100%;
+  height: 45px;
+  padding: 8px;
+
+
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+
+}
+.group1-header {
+    display: flex;
+
+}
+.group2-header {
+    display:flex;
+}
+.group3-header {
+    display:flex;
+}
+
+.container .sidemenu {
+  background: blue;
+  grid-area: sidemenu;
+}
+
+.container .mainarea {
+  background: pink;
+  grid-area:mainarea;
+}
+.icono-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.img-logo {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;*/
+    width: 40px;
+    height: 40px;
+    padding-right: 4px;
+}
+.icono-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-keep {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 22px;
+    cursor: pointer;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.keep-name {
+    padding-left: 4px;
+}
+.icono-buscador {
+    display:flex;
+    align-self: center;;    
+    width: 24px;
+    height: 24px; 
+    color:white;
+    padding: 8px;
+    margin: 3px;
+    cursor: pointer;
+
+}
+.icono-refresh {
+    display:flex; 
+    align-self: center;;
+    width: 24px;
+    height: 24px; 
+    color:#B4AEAD;
+    padding: 5px;
+    margin: 3px;
+    cursor: pointer;
+
+}
+.icono-settings {
+    display: flex;
+    align-self: center;
+    color:#B4AEAD; 
+    padding: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+.icono-list {
+    display: flex;
+    align-self: center;
+    color:#B4AEAD; 
+    padding: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+.icono-aplicaciones {
+    display:flex;
+    align-self: center;
+    color: #B4AEAD; 
+    padding:5px;
+    padding-left: 30px;
+    margin: 3px;
+    cursor: pointer;
+}
+.icono-cuenta {
+    display: flex;
+    align-self: center;
+    color:#B4AEAD;
+    padding: 5px;
+    margin: 3px;
+    cursor:pointer;
+}
+
+.cuenta_icono {
+    font-size: 40px;
+}
+.input-header {
+    display: flex;
+    align-self: center;
+
+}

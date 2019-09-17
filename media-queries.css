@@ -1,0 +1,14 @@
+@media (max-width: 610px) {
+    .input-header {
+        display: none;
+    }
+    .icono-list {
+        display: none;
+    }
+    .icono-aplicaciones {
+        display: none;
+    }
+    .img-logo {
+        display: none;
+    }
+  }
