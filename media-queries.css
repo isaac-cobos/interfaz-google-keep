@@ -1,14 +1,50 @@
 @media (max-width: 610px) {
-    .input-header {
-        display: none;
-    }
     .icono-list {
-        display: none;
-    }
-    .icono-aplicaciones {
         display: none;
     }
     .img-logo {
         display: none;
     }
   }
+
+@media (max-width: 760px ) {
+      .container-input {
+          display:none;
+          transition-duration: 100ms;
+      }
+
+  }
+@media ( max-width: 1035px ) {
+    .icono-aplicaciones {
+        display: none;
+    }
+}
+
+@media ( min-width: 760px ) {
+    .icono-buscador {
+        display: none;
+        transition: 100ms;
+    }
+}
+
+@media ( max-width: 1030px ) {
+    .sidemenu {
+        display: none;
+    }
+    .container {
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 65px 1fr;
+        grid-template-areas: "header-1 header-1 header-1"
+                             "mainarea mainarea mainarea";
+    }
+}
+/*
+@media ( max-width:610 ) {
+    .container-notes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+*/
