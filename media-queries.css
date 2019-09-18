@@ -5,6 +5,14 @@
     .img-logo {
         display: none;
     }
+    .container-notes .card-notes {
+        width: 100%;
+    }
+    .input-mainarea {
+        display: flex;
+        margin: 5px;
+        width: 100%;
+    }
   }
 
 @media (max-width: 760px ) {
@@ -40,11 +48,5 @@
                              "mainarea mainarea mainarea";
     }
 }
-/*
-@media ( max-width:610 ) {
-    .container-notes {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-*/
+
+
