@@ -28,7 +28,6 @@ html, body {
   padding-top: 4px;
   padding-bottom: 4px;
   border-bottom:solid 0.5px #B4AEAD ;
-  width:100%;
   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
   left: 0; /* Posicionamos la cabecera al lado izquierdo */
   top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -59,7 +58,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-self: center;
-    /*background-color:rgba(241,243,244,0.24);*/
     background-color: white;
     border-radius: 10px;
     border: none;
@@ -226,7 +224,7 @@ html, body {
     outline: none;
     border: solid 1px rgb(128, 122, 121) ;
     border-radius: 10px;
-  }
+}
 .container-notes .card-notes {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -238,4 +236,93 @@ html, body {
     margin: 5px;
     border: solid 1px rgb(128, 122, 121) ;
     border-radius: 10px;
-  }
+}
+.side-menu1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 2px;
+    margin-left: 15px;
+    padding: 10px;
+    padding-right: 136px;
+}
+.notas-bombilla {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 7px;
+}
+
+.bombilla-icono {
+    margin-right: 30px;
+}
+.recordatorio {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 7px;
+    border-bottom: 0.5px solid #EEE;
+}
+
+.recordatorio-icono {
+    margin-right: 30px;
+}
+
+.etiquetas-txt {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgba(192, 195, 197, 0.76);
+}
+.edit-icono {
+    margin-right: 30px;
+}
+.editar-etiquetas {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 7px;
+    border-bottom: 0.5px solid #EEE;
+}
+.archivado-icono {
+    margin-right: 30px;
+}
+.notas-archivadas {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+.rubbish-icono {
+    margin-right: 30px;
+}
+.rubbish {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #EEE;
+    text-decoration: none;
+    padding: 6px
+}
+.info-footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 130px;
+}
+.ul-footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
