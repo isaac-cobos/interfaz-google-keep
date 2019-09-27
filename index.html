@@ -1,126 +1,137 @@
 <html>
-
   <head>
     <script src="script.js"></script>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="media-queries.css">
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="header-style.css" />
+    <link rel="stylesheet" href="mainarea-style.css" />
+    <link rel="stylesheet" href="sidemenu-style.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+
   </head>
 
-  <body class="container">
-    
-    <header class="header-1">
-        <div class="container-header">
-            <div class="group1-header">
-                <div class="icono-menu">
-                        <i class="large material-icons">menu</i>
-                </div>
-                <div class="icono-logo">
-                        <a  class="logo-keep" href="https://keep.google.com">
-                            <img class="img-logo" src="./assets/images/keep_48dp.png" alt="logo-keep">
-                            <span class="keep-name">Keep</span>
-                        </a>
-                </div>
+  <body class="body-container">
+    <header class="header">
+      <nav class="nav-header">
+        <div class="menu-header">
+          <div class="icono-menu">
+            <i class="large material-icons">menu</i>
+          </div>
+          <div class="icono-logo">
+            <a class="logo-keep" href="https://keep.google.com">
+              <img
+                class="img-logo"
+                src="./assets/images/keep_48dp.png"
+                alt="logo-keep"
+              />
+              <span class="keep-name">Keep</span>
+            </a>
+          </div>
+        </div>
+        <div class="container-input">
+          <div class="card-buscador-input">
+            <i class="large material-icons icono-buscador-input">search</i>
+          </div>
+          <div class="card-buscador">
+            <div class="card-input">
+              <input
+                class="input-header"
+                type="text"
+                placeholder="Busca lo que quieras"
+              />
             </div>
-            <div class="container-input">
-                <div class="icono-buscador-input">
-                    <i class="large material-icons icono-buscador-input1">search</i>
-                </div>
-                <div class="group2-header">
-                    <div class="input-header">
-                        <input class="input-circle" type="text" placeholder="Busca lo que quieras">
-                    </div>
-                </div>
-
-            </div>
-    
-
-            <div class="group3-header">
-                <div class="icono-buscador">
-                        <i class="large material-icons">search</i>
-                </div>
-                <div class="icono-refresh">
-                        <i class="large material-icons">refresh</i>
-                </div>
-                <div class="icono-list">
-                        <i class="large material-icons">list</i>
-                </div>
-                <div class="icono-settings">
-                        <i class="large material-icons">settings</i>
-                </div>
-                <div class="icono-aplicaciones">
-                        <i class="large material-icons">apps</i>
-                </div>
-                <div class="icono-cuenta">
-                        <i class="material-icons cuenta_icono">account_circle</i>
-                </div>
-                
-            </div>
+          </div>
         </div>
 
+        <div class="card-icons-config">
+          <div class="icono-buscador">
+            <i class="large material-icons">search</i>
+          </div>
+          <div class="icono-refresh">
+            <i class="large material-icons">refresh</i>
+          </div>
+          <div class="icono-list">
+            <i class="large material-icons">list</i>
+          </div>
+          <div class="icono-settings">
+            <i class="large material-icons">settings</i>
+          </div>
+          <div class="icono-aplicaciones">
+            <i class="large material-icons">apps</i>
+          </div>
+          <div class="icono-cuenta">
+            <i class="material-icons fontsize-cuenta-icono">account_circle</i>
+          </div>
+        </div>
+      </nav>
     </header>
-    
-    <aside class="sidemenu"> 
-        <section>
-            <div class="side-menu1">
-                <div class="notas-bombilla">
-                        <i class="large material-icons bombilla-icono">lightbulb_outline</i>
-                        <span class="span-notas">Notas</span>
-                </div>
-                <div class="recordatorio">
-                        <i class="large material-icons recordatorio-icono">notifications</i>
-                        <span class="span-recordatorio">Recordatorio</span>
-                </div>
 
-                <h6 class="etiquetas-txt">ETIQUETAS</h6>
-                <div class="editar-etiquetas">
-                    <i class="large material-icons edit-icono">mode_edit</i>
-                    <span>Editar etiquetas</span>
-                </div>
+    <aside class="sidemenu">
+      <section>
+        <div class="menu-lateral">
+          <div class="card-notas">
+            <i class="large material-icons bombilla-icono">lightbulb_outline</i>
+            <span class="span-notas">Notas</span>
+          </div>
+          <div class="card-recordatorio">
+            <i class="large material-icons recordatorio-icono">notifications</i>
+            <span class="span-recordatorio">Recordatorio</span>
+          </div>
 
-                <div class="notas-archivadas">
-                    <i class="large material-icons archivado-icono">folder</i>
-                    <span>Notas archivadas</span>
-                </div>
-                <div class="rubbish">
-                        <i class="large material-icons rubbish-icono">delete</i>
-                        <span>Papelera</span>
-                </div>
-            </div>
-            <div class="info-footer">
-                <ul class="ul-footer">
-                    <a href="#">Privacidad</a>
-                    <a href="#">Condiciones</a>
-                    <a href="#">Licencias de código abierto</a>
-                </ul>
-            </div>
+          <h6 class="card-etiquetas">ETIQUETAS</h6>
+          <div class="editar-etiquetas">
+            <i class="large material-icons editar-icono">mode_edit</i>
+            <span>Editar etiquetas</span>
+          </div>
 
-
-        </section>
-    </aside>
-    
-    <main class="mainarea">
-        <div class="container-input-mainarea">
-                <input class="input-mainarea" type="text" placeholder="Añade una nota...">
+          <div class="notas-archivadas">
+            <i class="large material-icons archivado-icono">folder</i>
+            <span>Notas archivadas</span>
+          </div>
+          <div class="card-papelera">
+            <i class="large material-icons papelera-icono">delete</i>
+            <span>Papelera</span>
+          </div>
         </div>
-        <section class="container-notes">
-                <div class="card-notes">Nota Nueva1</div>
-                <div class="card-notes">Nota como estas</div>
-                <div class="card-notes">Nota todo ok!</div>
-                <div class="card-notes">Nota esto si Mola</div>
-                <div class="card-notes">Nota positive</div>
-                <div class="card-notes">Nota and What´s more</div>
-                <div class="card-notes">middle in the maze</div>
-                <div class="card-notes">stone seat</div>
-                <div class="card-notes">How do you often go at the school</div>
-                <div class="card-notes">Andale andale</div>
-                <div class="card-notes">Andale manito wey</div>
-        </section> 
+        <div class="info-footer">
+          <ul class="ul-footer">
+            <a href="#">Privacidad</a>
+            <a href="#">Condiciones</a>
+            <a href="#">Licencias de código abierto</a>
+          </ul>
+       </div> 
+      </section>
+    </aside>
 
+    <main class="mainarea">
+      <div class="container-input-mainarea">
+        <input
+          class="input-mainarea"
+          type="text"
+          placeholder="Añade una nota..."
+        />
+      </div>
+      <section class="container-notes">
+        <div class="card-notes">Nota Nueva1</div>
+        <div class="card-notes">Nota como estas</div>
+        <div class="card-notes">Nota todo ok!</div>
+        <div class="card-notes">Nota esto si Mola</div>
+        <div class="card-notes">Nota positive</div>
+        <div class="card-notes">Nota and What´s more</div>
+        <div class="card-notes">middle in the maze</div>
+        <div class="card-notes">stone seat</div>
+        <div class="card-notes">How do you often go at the school</div>
+        <div class="card-notes">Andale andale</div>
+        <div class="card-notes">Andale manito wey</div>
+      </section>
     </main>
-    
   </body>
-
 </html>

@@ -1,0 +1,133 @@
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-area: header;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: solid 0.5px #b4aead;
+}
+.menu-header {
+  display: flex;
+  width: 230px;
+  padding-right: 30px;
+}
+.card-buscador {
+  align-self: center;
+  background-color: rgba(241, 243, 244, 0.24);
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 100%;
+}
+.card-icons-config {
+  display: flex;
+}
+.icono-menu {
+  justify-content: flex-start;
+  align-self: center;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.keep-name {
+  text-decoration: none;
+  color: white;
+  padding-left: 4px;
+}
+.img-logo {
+  display: none;
+  width: 40px;
+  height: 40px;
+  padding-right: 4px;
+}
+
+.logo-keep {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 22px;
+  cursor: pointer;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+.container-input {
+  display:none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 4px 0 4px;
+  width: 720px;
+  height: 50px;
+}
+.card-buscador-input {
+  display: flex;
+  align-self: center;
+  padding-left: 10px;
+}
+.card-input {
+  display: flex;
+  align-self: center;
+  height: 30px;
+}
+.input-header {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  font-size: 17;
+  border: 0;
+}
+.icono-buscador {
+  align-self: center;
+  width: 24px;
+  height: 24px;
+  color: white;
+  padding: 8px;
+  margin: 3px;
+  cursor: pointer;
+}
+.icono-refresh {
+  align-self: center;
+  width: 24px;
+  height: 24px;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+.icono-list {
+  align-self: center;
+  display: none;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+.icono-settings {
+  align-self: center;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+.icono-aplicaciones {
+  align-self: center;
+  display: none;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 5px;
+  padding-left: 30px;
+  margin: 3px;
+  cursor: pointer;
+}
+.icono-cuenta {
+  align-self: center;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+.fontsize-cuenta-icono {
+  font-size: 40px;
+}
